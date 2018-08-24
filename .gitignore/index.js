@@ -14,7 +14,7 @@ bot.on("message", async function(message) {
 
     if(!message.content.startsWith(PREFIX)) return;
 
-    var args = message.content.sybstring(PREFIX.length).split("");
+    var args = message.content.substring(PREFIX.length).split("!");
 
     switch(args[0].toLowerCase()) {
         case "invite":
