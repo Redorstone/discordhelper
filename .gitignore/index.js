@@ -21,6 +21,7 @@ bot.on("message", async function(message) {
         message.chanel.send("test1");
         break;
         default:
+            message.chanel.send("Mauvaise commande");
         break;
     }
 });
