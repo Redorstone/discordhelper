@@ -20,6 +20,8 @@ bot.on("message", async function(message) {
         case "invite":
         message.chanel.send("test1");
         break;
+        default:
+        break;
     }
 });
 
